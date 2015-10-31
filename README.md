@@ -7,9 +7,7 @@
 
 ## Description
 
-This lab will walk you, step by step, through the basics of programming a simple
-`Book` class. Once you've completed the tutorial, you should know enough to complete
-a similar object oriented problem on your own.
+This lab is a continuation of the Object Orientation Basics where we walked through the basics of programming a simple `Book` class. We will modify the class we already built to incorporate class constants.
 
 ## Instructions
 
