@@ -166,3 +166,4 @@ Open `spec/02_shoe_spec.rb` and start making the tests pass. Write your code in 
 To run the specs, type `learn spec/02_shoe_spec.rb` on your command line.
 
 Happy coding!
+<a href='https://learn.co/lessons/oo-basics-with-class-constants' data-visibility='hidden'>View this lesson on Learn.co</a>
