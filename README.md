@@ -52,7 +52,7 @@ Failures:
 
 Ok, so this is new. This syntax, `Book::GENRES` tells us a couple of things. First, whenever we see `::`, it indicates "name spacing". In other words, it tells us that the thing on the right side of the colons is a thing defined within the context, or name space, of the thing on the left side of the colons.
 
-In this case, this is telling us that there is a constant, `GENRES` (we know it's a constant) because it's written in all caps) that is defined within our `Book` class.
+In this case, this is telling us that there is a constant, `GENRES` (we know it's a constant because it's written in all caps) that is defined within our `Book` class.
 
 This is what is known as a Class Constant.
 
