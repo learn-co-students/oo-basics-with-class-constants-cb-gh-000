@@ -45,9 +45,9 @@ Failures:
      Failure/Error: expect(Book::GENRES).to include(genre)
      NameError:
        uninitialized constant Book::GENRES
-     # ./spec/01_book_spec.rb:49:in `block (4 levels) in <top (required)>'
-     # ./spec/01_book_spec.rb:48:in `each'
-     # ./spec/01_book_spec.rb:48:in `block (3 levels) in <top (required)>'
+     # ./spec/01_book_spec.rb:11:in `block (4 levels) in <top (required)>'
+     # ./spec/01_book_spec.rb:10:in `each'
+     # ./spec/01_book_spec.rb:10:in `block (3 levels) in <top (required)>'
 ```
 
 Ok, so this is new. This syntax, `Book::GENRES` tells us a couple of things. First, whenever we see `::`, it indicates "name spacing". In other words, it tells us that the thing on the right side of the colons is a thing defined within the context, or name space, of the thing on the left side of the colons.
@@ -88,12 +88,12 @@ Failures:
   1) Book GENRES keeps track of all genres
      Failure/Error: expect(Book::GENRES).to include(genre)
        expected [] to include "Thriller"
-     # ./spec/01_book_spec.rb:49:in `block (4 levels) in <top (required)>'
-     # ./spec/01_book_spec.rb:48:in `each'
-     # ./spec/01_book_spec.rb:48:in `block (3 levels) in <top (required)>'
+     # ./spec/01_book_spec.rb:11:in `block (4 levels) in <top (required)>'
+     # ./spec/01_book_spec.rb:10:in `each'
+     # ./spec/01_book_spec.rb:10:in `block (3 levels) in <top (required)>'
 ```
 
-I really have no clue how in the world my array would magically contain "Thriller", so let's look at the specific test to figure out what's going on. From lines 41-52 in `spec/01_book_spec.rb`:
+We really have no clue how in the world our array would magically contain "Thriller", so let's look at the specific test to figure out what's going on. Here's what we have in `spec/01_book_spec.rb`:
 
 ```ruby
 describe 'GENRES' do
