@@ -3,7 +3,7 @@
 ## Objectives
 1. Understand what a class constant is
 2. Use a class constant
-3. Know when to use attr_accessor VS creating the methods yourself
+3. Know when to use `attr_accessor` VS creating the methods yourself
 
 ## Description
 
@@ -167,3 +167,5 @@ To run the specs, type `learn spec/02_shoe_spec.rb` on your command line.
 
 Happy coding!
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-basics-with-class-constants' title='Object Orientation Basics With Class Constants'>Object Orientation Basics With Class Constants</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-basics-with-class-constants'>OO Basics with Class Constants</a> on Learn.co and start learning to code for free.</p>
