@@ -7,7 +7,7 @@
 
 ## Description
 
-In the oo-basics lab, each individual instance of a class held on to the information about itself.  A book object, an instance of the `Book` class, knew it's own title and author and genre.  Building upon that, you will learn to add functionality that allows a class to hold information from across all the instances of that class that have been created.
+Previously, we saw how to make each individual instance of a class hold on to the information about itself.  A book object, an instance of the `Book` class, knew its own title and author and genre.  Building upon that, you will learn to add functionality that allows a class to hold information from across all the instances of that class that have been created.
 
 ## Instructions
 
