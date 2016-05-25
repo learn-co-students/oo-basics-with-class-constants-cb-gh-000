@@ -7,32 +7,16 @@
 
 ## Description
 
-This lab will walk you, step by step, through the basics of programming a simple `Book` class. Once you've completed the tutorial, you should know enough to complete a similar object oriented problem on your own.
+Previously, we saw how to make each individual instance of a class hold on to the information about itself.  A book object, an instance of the `Book` class, knew its own title and author and genre.  Building upon that, you will learn to add functionality that allows a class to hold information from across all the instances of that class that have been created.
 
 ## Instructions
 
 1. Read through the tutorial, following along as you go.
-2. Once you've finished, make the tests in `spec/02_shoe_spec.rb` pass. Run only those tests by typing `learn spec/02_shoe_spec.rb` on your command line.
+2. Once you've finished, make the tests in `spec/01_book_spec.rb` pass. Run only those tests by typing `learn spec/01_book_spec.rb` on your command line.
 
 ## Tutorial
 
-Object oriented programming, or OOP, is an extremely useful programming paradigm in which we can organize our code according to how real-world objects might interact with one another. We can wrap properties/data and behavior up in classes, and then create instances, or individual "members", of those classes that can interact with one another.
-
-In this tutorial, we are given a simple `Book` class properties like a title, an author, a page count, etc. Our job is to have the class somehow be able to keep track of all of the genres of all of the Books we create.
-
-### Set Up
-
-The project directory structure is pretty much set up for us already. We have a `spec` folder that contains our tests, and we have a `book.rb` file in the root of the project that we'll actually be coding in.
-
-Whenever the tutorial says to 'run the specs', you should type the following into your command line:
-
-```bash
-learn spec/01_book_spec.rb
-```
-
-This will run only the tests that we are interested in completing for this tutorial.
-
-Ready?
+In this tutorial, we are given a simple `Book` class that has already been implemented with some basic functionality. It has properties like a title, an author, a page count, etc. Our job is to have the class somehow be able to keep track of all of the genres of all of the Books we create.
 
 ### Class Constants
 
@@ -155,9 +139,8 @@ class Book
 end
 ```
 
-Run the tests, and, boom! All the tests pass!
-Now it's your turn to try some of this on your
-own.
+Now all the tests will pass!
+Try to complete the similar exercise below where the `Shoe` class can keep track of all of the brands of the different show objects.
 
 ## Shoe Class
 
