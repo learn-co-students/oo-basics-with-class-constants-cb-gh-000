@@ -64,7 +64,7 @@ class Book
 end
 ```
 
-This next error, after running the specs again, though is kind of weird:
+This next error, after running the specs again, though, is kind of weird:
 
 ```bash
 Failures:
@@ -152,3 +152,4 @@ Happy coding!
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-basics-with-class-constants' title='Object Orientation Basics With Class Constants'>Object Orientation Basics With Class Constants</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-basics-with-class-constants'>OO Basics with Class Constants</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/oo-basics-with-class-constants'>OO Basics with Class Constants</a> on Learn.co and start learning to code for free.</p>
