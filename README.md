@@ -9,7 +9,7 @@
 
 Previously, we saw how to make each individual instance of a class hold on to the information about itself.  A book object, an instance of the `Book` class, knew its own title and author and genre.  Building upon that, you will learn to add functionality that allows a class to hold information from across all the instances of that class that have been created.
 
-## Instructions
+## Instructdions
 
 1. Read through the tutorial, following along as you go.
 2. Once you've finished, make the tests in `spec/01_book_spec.rb` pass. Run only those tests by typing `learn spec/01_book_spec.rb` on your command line.
