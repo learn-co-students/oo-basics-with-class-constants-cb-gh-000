@@ -14,17 +14,4 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-
-  def brand  # write the brand variable
-    @brand = brand # save an instance variable to call the brand later
-    BRANDS << @brand
-    #if !BRANDS.include?(brand)
-      #puts "in"
-      #BRANDS << brand  # add the current brand to the constant BRANDS
-    #else
-      #puts "out"
-    #end
-
-  end
-
 end
